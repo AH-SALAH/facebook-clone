@@ -32,13 +32,13 @@ Facebook UI Clone project with some Functionality.
 
 ## ⛏️ Built Using <a id = "built_using"></a>
 
-✅ Nextjs
-✅ Typescript
-✅ Tailwind
-✅ HeadlessUI
-✅ NextAuth
-✅ Facebook Login
-✅ Firebase
+✅ Nextjs\
+✅ Typescript\
+✅ Tailwind\
+✅ HeadlessUI\
+✅ NextAuth\
+✅ Facebook Login\
+✅ Firebase\
 etc...(helpers pkgs)
 
 ## 🏁 Getting Started <a id = "getting_started"></a>
@@ -65,7 +65,7 @@ yarn build
 
 ## 🔧 TODO <a id = "tests"></a>
 
-!!!? Add Tests
+- Add Tests
 
 ## ✍️ Authors <a id = "authors"></a>
 
