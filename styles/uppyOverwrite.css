@@ -1,0 +1,58 @@
+/* uppy file uploader */
+.uppy-Root, 
+.uppy-Dashboard{
+    @apply w-full h-full;
+}
+
+.uppy-Dashboard-innerWrap{
+    @apply opacity-100;
+}
+
+.uppy-Dashboard-innerWrap .uppy-Dashboard-dropFilesHereHint
+{
+    @apply text-xs lg:text-lg;
+}
+
+.uppy-Dashboard-innerWrap .uppy-Dashboard-AddFiles-title
+{
+    @apply text-xs grid place-content-center place-items-center text-center;
+}
+
+.uppy-Dashboard-innerWrap .uppy-Dashboard-AddFiles-title > button
+{
+    @apply text-lg block cursor-pointer;
+}
+
+.uppy-StatusBar .uppy-StatusBar-actionBtn,
+.uppy-Dashboard-FileCard-edit{
+    @apply !p-3 !bg-blue-600 hover:!bg-blue-700;
+}
+
+.uppy-Dashboard-inner{
+    @apply border-0;
+}
+
+[data-uppy-theme=dark] .uppy-Dashboard-inner{
+    @apply dark:bg-zinc-800 bg-zinc-400
+}
+
+.uppy-Dashboard-inner .uppy-Dashboard-Item{
+    @apply border-0 dark:bg-zinc-700 dark:hover:bg-zinc-600 bg-zinc-200 hover:bg-zinc-300;
+}
+
+.uppy-size--md .uppy-Dashboard-inner .uppy-Dashboard-Item{
+    @apply bg-transparent;
+}
+
+/* .uppy-size--md .uppy-Dashboard-Item-fileInfoAndButtons{
+    @apply px-1;
+} */
+
+.uppy-Dashboard-innerWrap .uppy-Dashboard-files{
+    @apply overflow-y-auto;
+}
+
+/* webcam */
+.uppy-Webcam-permissonsIcon > svg{
+    @apply !w-12 !m-0 mx-auto;
+}
