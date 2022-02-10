@@ -1,6 +1,7 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo" style="display:none;"></a>
+ <!-- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"> -->
+ </a>
 </p>
 
 <h3 align="center">Facebook Clone</h3>
@@ -14,7 +15,9 @@
 ---
 
 ###### <p align="center">⚠ App will be deployed soon</p>
- 
+<p align="center">
+<img width=90% height=500px src="/public/img/fb_clone_1.png" alt="Project img">
+</p>
 
 ## 📝 Table of Contents
 
