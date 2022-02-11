@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]() [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls) [![License](https://img.shields.io/badge/license-Apache-blue.svg)](/LICENSE)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]() [![GitHub Issues](https://img.shields.io/github/issues/AH-SALAH/facebook-clone.svg)](https://github.com/AH-SALAH/facebook-clone/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/AH-SALAH/facebook-clone.svg)](https://github.com/AH-SALAH/facebook-clone/pulls) [![License](https://img.shields.io/badge/license-Apache-blue.svg)](/LICENSE)
 
 </div>
 
@@ -16,7 +16,7 @@
 
 ###### <p align="center">⚠ App will be deployed soon</p>
 <p align="center">
-<img width=90% height=500px src="/public/img/fb_clone_1.png" alt="Project img">
+<img width=95% height=500px src="/public/img/fb_clone_1.png" alt="Project img">
 </p>
 
 ## 📝 Table of Contents
