@@ -7,7 +7,7 @@ import { useUppyUpload } from '../../../../FileUpload/Uppy';
 const CreateModal: FC = () => {
     let { openModal, setOpenModal } = useContext(ModalStatusCtx);
     // init uppy here to persist data after modal close
-    let upy = useCallback(() => useUppyUpload(), []);
+    let upy = useUppyUpload();
 
     let handleCloseModal = (e?: MouseEvent, setIsOpen?: Dispatch<any>) => {
         if (setIsOpen) setIsOpen(false);
@@ -22,7 +22,7 @@ const CreateModal: FC = () => {
             routePath={'/createpost'}
             // size={'lg'}
         >
-            <FormBody upy={upy()} />
+            <FormBody upy={upy} />
         </Modal>
     )
 }

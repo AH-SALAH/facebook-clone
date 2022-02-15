@@ -38,7 +38,8 @@ const Modal = ({ children, openModal, setOpenModal, closeModal, routePath, size,
                 router.push('', currP.current, { shallow: true });
             }
         }
-    }, [openModal]);
+        // eslint-disable-next-line
+    }, [openModal, routePath]);
 
 
     let closeDialog = () => {

@@ -20,7 +20,7 @@ export default function SignIn({ providers }: { providers?: object }) {
                             }
                             onClick={() => signIn(provider?.id, { redirect: false, callbackUrl: encodeURI(''+(router?.query?.callbackUrl || '/')) })}
                         >
-                            <Image src={'/logo.svg'} width={30} height={30} className="rounded-full" />
+                            <Image src={'/logo.svg'} width={30} height={30} className="rounded-full" alt={'logo'} />
                             Sign in with {provider?.name} 🔒
                         </button>
                     </div>

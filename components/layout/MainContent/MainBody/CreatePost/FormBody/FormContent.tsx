@@ -65,7 +65,7 @@ const FormContent = ({ upy }: { upy: Uppy }) => {
 
         // incase there are uploads & its complete, reset after complete
         if (uploadComplete) handleReset();
-
+        // eslint-disable-next-line
     }, [setFocus, isSubmitting, uploadComplete]);
 
     // TODO: extract this logic

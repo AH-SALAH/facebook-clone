@@ -17,9 +17,9 @@ const ClientAuth = ({ children, cshn }: { children: ReactElement, cshn?: Session
     useEffect(() => {
         // replace those fb redirect [#_=_] annoying suffix
         if (typeof window !== 'undefined' && router?.asPath?.match(/(.#.)/gi)) {
-            //   console.log("match: ", router?.asPath?.match(/(.#.)/gi))
             router.replace(router.asPath, router.pathname, { shallow: true })
         }
+        // eslint-disable-next-line
     }, []);
 
     if (status === 'loading') return <Loading />;

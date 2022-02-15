@@ -46,25 +46,29 @@ const LinkItem = (
                 ||
                 (
                     <MenuPopover ReferenceEl={
-                        forwardRef<HTMLAnchorElement>((props, ref) => <Link href={url} shallow {...other} >
-                            <a
-                                className={`relative cursor-pointer ${router.asPath === as ? 'text-sky-600 fill-blue-600' : 'fill-transparent ' + fromTab} w-full h-full flex place-content-center place-items-center ${classes ? classes : ''}`}
-                                title={title}
-                                ref={ref}
-                                onClick={() => setClicked(true)}
-                            // ref={(node: HTMLAnchorElement) => linkRef.current = node}
-                            >
-                                {
-                                    icon ?
-                                        <span className={`${!isTab && 'p-2 fill-zinc-600 dark:fill-zinc-200 w-8 h-8' || 'fill-zinc-600 dark:fill-zinc-400 w-6 h-6'} md:w-10 md:h-10 flex place-content-center place-items-center fill-zinc-600 dark:fill-zinc-400`} >
-                                            {icon}
-                                        </span> :
-                                        title
-                                }
-                                {notification && !clicked && <span className="animate-ping rounded-full w-3 h-3 bg-red-600 absolute right-[2px] top-[2px] border-current border dark:border-zinc-800 dark:border-2"></span> || ''}
-                            </a>
-                        </Link>
-                        )}
+                        forwardRef<HTMLAnchorElement>(function RefElComp(props, ref) {
+                            return (
+                                <Link href={url} shallow {...other} >
+                                    <a
+                                        className={`relative cursor-pointer ${router.asPath === as ? 'text-sky-600 fill-blue-600' : 'fill-transparent ' + fromTab} w-full h-full flex place-content-center place-items-center ${classes ? classes : ''}`}
+                                        title={title}
+                                        ref={ref}
+                                        onClick={() => setClicked(true)}
+                                    // ref={(node: HTMLAnchorElement) => linkRef.current = node}
+                                    >
+                                        {
+                                            icon ?
+                                                <span className={`${!isTab && 'p-2 fill-zinc-600 dark:fill-zinc-200 w-8 h-8' || 'fill-zinc-600 dark:fill-zinc-400 w-6 h-6'} md:w-10 md:h-10 flex place-content-center place-items-center fill-zinc-600 dark:fill-zinc-400`} >
+                                                    {icon}
+                                                </span> :
+                                                title
+                                        }
+                                        {notification && !clicked && <span className="animate-ping rounded-full w-3 h-3 bg-red-600 absolute right-[2px] top-[2px] border-current border dark:border-zinc-800 dark:border-2"></span> || ''}
+                                    </a>
+                                </Link>
+                            )
+                        })
+                    }
                     >
                         <button type="button" role={'menuitem'} className='rounded-lg text-light dark:text-dark bg-light dark:bg-dark px-3 py-1 w-full' onClick={() => signOut({ redirect: false })} >Logout</button>
                     </MenuPopover>

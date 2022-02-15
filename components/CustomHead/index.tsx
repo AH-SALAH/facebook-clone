@@ -10,7 +10,7 @@ import { randomRange } from "../../utils/randomRange"
  * @param {{ title?: string, children?: ReactChildren }} { title, children }
  * @returns jsx element
  */
-const CustomHead = memo(({ title, children }: { title?: string, children?: ReactChildren }) => {
+const CustomHead = memo(function CustomHeadComp({ title, children }: { title?: string, children?: ReactChildren }) {
     let [rand] = useState<SetStateAction<number>>(randomRange(2, 22));
     let router = useRouter();
     let {data: session} = useSession();
@@ -32,6 +32,6 @@ const CustomHead = memo(({ title, children }: { title?: string, children?: React
             {children}
         </Head>
     )
-})
+});
 
-export default CustomHead
+export default CustomHead;
