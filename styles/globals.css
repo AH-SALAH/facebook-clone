@@ -66,6 +66,11 @@
         /* Firefox */
     }
 
+    /* primaries */
+    .bg-primary{
+        @apply bg-blue-600 hover:bg-blue-700 text-zinc-100;
+    }
+
     .layover-light:before {
         content: '';
         top    : 0;
@@ -104,6 +109,9 @@
         @apply bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200;
     }
 
+    .btn-loading{
+        @apply border border-zinc-200 border-b-0 rounded-full animate-spin duration-75 w-4 h-4;
+    }
 }
 
 @import '@uppy/dashboard/dist/style.css';
