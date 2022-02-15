@@ -11,6 +11,6 @@ module.exports = {
         return config
     },
     images: {
-        domains: ['api.lorem.space', 'platform-lookaside.fbsbx.com']
+        domains: ['api.lorem.space', 'platform-lookaside.fbsbx.com', 'firebasestorage.googleapis.com']
     }
 }
