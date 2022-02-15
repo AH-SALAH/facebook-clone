@@ -1,6 +1,7 @@
+import { DocumentData } from 'firebase/firestore';
 import Link from 'next/link';
 
-const Footer = () => {
+const Footer = ({ post }: { post: DocumentData }) => {
     return (
         <>
             <hr className="border-zinc-300 dark:border-zinc-700 w-full" />
