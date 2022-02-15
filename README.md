@@ -42,7 +42,6 @@ Facebook UI Clone project with some Functionality.
 ✅ NextAuth\
 ✅ Facebook Login\
 ✅ Firebase\
-etc...(helpers pkgs)
 
 ## 🏁 Getting Started <a id = "getting_started"></a>
 
@@ -62,9 +61,10 @@ yarn dev
 
 // build
 yarn build
+yarn start
 ```
-- Create .env.local file with credentials.
-- Create firebase.ts file in the root dir with firebase credentials.
+- Create .env.local file with credentials. (e.g. fb nextauth related)
+- Add firebase cred in .env.local corresponding to the firebase.ts file env keys.
 
 ## 🔧 TODO <a id = "tests"></a>
 
