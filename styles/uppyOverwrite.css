@@ -56,3 +56,14 @@
 .uppy-Webcam-permissonsIcon > svg{
     @apply !w-12 !m-0 mx-auto;
 }
+
+.uppy-DashboardTab{
+    @apply py-1;
+}
+.uppy-DashboardTab .uppy-DashboardTab-btn{
+    @apply py-2;
+}
+
+.uppy-DashboardTab .uppy-DashboardTab-name{
+    @apply pt-1;
+}
