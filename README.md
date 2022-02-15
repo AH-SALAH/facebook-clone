@@ -1,14 +1,8 @@
-<p align="center">
-  <a href="" rel="noopener">
- <!-- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"> -->
- </a>
-</p>
-
 <h3 align="center">Facebook Clone</h3>
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]() [![GitHub Issues](https://img.shields.io/github/issues/AH-SALAH/facebook-clone.svg)](https://github.com/AH-SALAH/facebook-clone/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/AH-SALAH/facebook-clone.svg)](https://github.com/AH-SALAH/facebook-clone/pulls) [![License](https://img.shields.io/badge/license-Apache-blue.svg)](/LICENSE)
+[![Lint Code Base](https://github.com/AH-SALAH/facebook-clone/actions/workflows/deploy.yml/badge.svg)](https://github.com/AH-SALAH/facebook-clone/actions/workflows/deploy.yml) [![GitHub Issues](https://img.shields.io/github/issues/AH-SALAH/facebook-clone.svg)](https://github.com/AH-SALAH/facebook-clone/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/AH-SALAH/facebook-clone.svg)](https://github.com/AH-SALAH/facebook-clone/pulls) [![License](https://img.shields.io/badge/license-Apache-blue.svg)](/LICENSE)
 
 </div>
 
@@ -47,8 +41,8 @@ Facebook UI Clone project with some Functionality.
 
 ### 💻 Prerequisites
 
-✔ Node 9+
-✔ Npm/Yarn
+✔ Node.js 9+
+✔ npm/yarn
 
 ### Installing
 
