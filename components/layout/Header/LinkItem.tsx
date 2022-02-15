@@ -61,7 +61,7 @@ const LinkItem = (
                                         </span> :
                                         title
                                 }
-                                {notification && !clicked && <span className="rounded-full w-3 h-3 bg-red-600 absolute right-[2px] top-[2px] border-current border dark:border-zinc-800 dark:border-2"></span> || ''}
+                                {notification && !clicked && <span className="animate-ping rounded-full w-3 h-3 bg-red-600 absolute right-[2px] top-[2px] border-current border dark:border-zinc-800 dark:border-2"></span> || ''}
                             </a>
                         </Link>
                         )}
