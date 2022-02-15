@@ -1,14 +1,15 @@
-<h3 align="center">Facebook Clone</h3>
+<h1 align="center">Facebook Clone</h1>
 
 <div align="center">
 
-[![Lint Code Base](https://github.com/AH-SALAH/facebook-clone/actions/workflows/deploy.yml/badge.svg)](https://github.com/AH-SALAH/facebook-clone/actions/workflows/deploy.yml) [![GitHub Issues](https://img.shields.io/github/issues/AH-SALAH/facebook-clone.svg)](https://github.com/AH-SALAH/facebook-clone/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/AH-SALAH/facebook-clone.svg)](https://github.com/AH-SALAH/facebook-clone/pulls) [![License](https://img.shields.io/badge/license-Apache-blue.svg)](/LICENSE)
+[![GitHub](https://img.shields.io/github/stars/AH-SALAH/facebook-clone.svg?style=flat-square)](https://github.com/AH-SALAH/facebook-clone) [![GitHub](https://img.shields.io/github/forks/AH-SALAH/facebook-clone.svg?style=flat-square)](https://github.com/AH-SALAH/facebook-clone) [![Lint Code Base](https://github.com/AH-SALAH/facebook-clone/actions/workflows/deploy.yml/badge.svg)](https://github.com/AH-SALAH/facebook-clone/actions/workflows/deploy.yml) [![GitHub Issues](https://img.shields.io/github/issues/AH-SALAH/facebook-clone.svg)](https://github.com/AH-SALAH/facebook-clone/issues) [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/AH-SALAH/facebook-clone.svg)](https://github.com/AH-SALAH/facebook-clone/pulls) [![License](https://img.shields.io/badge/license-Apache-blue.svg)](/LICENSE)
 
 </div>
 
 ---
 
 ###### <p align="center">⚠ App will be deployed soon</p>
+
 <p align="center">
 <img width=95% height=500px src="/public/img/fb_clone_1.png" alt="Project img">
 </p>
@@ -25,7 +26,6 @@
 ## 🧐 About <a id = "about"></a>
 
 Facebook UI Clone project with some Functionality.
-
 
 ## ⛏️ Built Using <a id = "built_using"></a>
 
@@ -46,7 +46,6 @@ Facebook UI Clone project with some Functionality.
 
 ### Installing
 
-
 ```
 yarn install
 
@@ -57,6 +56,7 @@ yarn dev
 yarn build
 yarn start
 ```
+
 - Create .env.local file with credentials. (e.g. fb nextauth related)
 - Add firebase cred in .env.local corresponding to the firebase.ts file env keys.
 
