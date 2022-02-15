@@ -39,7 +39,7 @@ export async function getServerSideProps(ctx: NextPageContext) {
     if (session) {
         return {
             redirect: {
-                destination: encodeURI(''+(ctx?.query?.calllbackUrl || '/')),
+                destination: encodeURI(''+(ctx?.query?.callbackUrl || '/')),
                 permenant: true
             }
         }
