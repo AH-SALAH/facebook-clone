@@ -20,7 +20,7 @@ const FormHeader = () => {
                 <header className="text-center">Create post</header>
             </Dialog.Title>
             <hr className="p-1 w-full border-zinc-600" />
-            <div className="px-6 pb-2 w-full flex place-content-start place-items-center gap-2 flex-wrap">
+            <div className="px-4 pb-2 w-full flex place-content-start place-items-center gap-2 flex-wrap">
                 <Image src={session?.user?.image || "https://api.lorem.space/image/face?w=50&h=50&hash=crc4vvrn"} width={40} height={40} layout="fixed" className="rounded-full w-5 h-5 md:w-auto md:h-auto" alt={session?.user?.name || 'user image'} />
                 <div className="title leading-tight">
                     <h6 className="font-bold">{session?.user?.name}</h6>
