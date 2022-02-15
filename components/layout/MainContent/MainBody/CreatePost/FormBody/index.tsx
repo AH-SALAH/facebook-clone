@@ -1,12 +1,12 @@
-import React, { FC } from 'react';
+import Uppy from '@uppy/core';
 import FormContent from './FormContent';
 import FormHeader from './FormHeader';
 
-const FormBody:FC = () => {
+const FormBody = ({ upy }: { upy: Uppy }) => {
     return (
         <>
             <FormHeader />
-            <FormContent />
+            <FormContent upy={upy} />
         </>
     );
 };
