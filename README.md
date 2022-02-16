@@ -8,7 +8,7 @@
 
 ---
 
-###### <p align="center">⚠ App will be deployed soon</p>
+###### <h4 align="center"><a href="https://f-b-clone-ah-salah.vercel.app/">App</a></h4>
 
 <p align="center">
 <img width=95% height=500px src="/public/img/fb_clone_1.png" alt="Project img">
